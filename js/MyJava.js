@@ -1,7 +1,7 @@
 'use strict'
 
 name=prompt('What is your name ?');
-var count =0;
+var count =0;   
 
 alert ('Welcome to my small game '+name+ ' ,Lets have fun !' );
 
@@ -81,8 +81,8 @@ switch (true) {
         alert ('Your Anwer is not Correct');
         break;
         default:
-        {alert ('You Answer by false input or you not inserted ,you should answer with (yes/no) or (y/n)')
-    console.log(q5Ans)}
+        {   alert ('You Answer by false input or you not inserted ,you should answer with (yes/no) or (y/n)')
+         }
       
     }
 //--------------------------------------------------------
