@@ -1,8 +1,9 @@
 body{
 
     background-image: url("/img/img1.png");
-    background-size: cover;
+    background-size:cover;
     background-color: black;
+    background-attachment: fixed;
 }
 h1{
     color: yellow;  
