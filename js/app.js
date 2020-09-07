@@ -5,7 +5,7 @@ var count =0;
 
 alert ('Welcome to my small game '+name+ ' ,Lets have fun !' );
 
-var q1Ans=prompt('Question 1 : Is Obama currently the president of America?\nPlease Answer with (yes,no) or (y,n)');
+var q1Ans=prompt('Question 1 :are i am 23 years old?\nPlease Answer with (yes,no) or (y,n)');
 
 if(q1Ans.toLowerCase() =='yes' ||q1Ans.toLowerCase()=='y')
 {
@@ -22,7 +22,7 @@ else {
     alert ('You Answer by false input or you not inserted ,you should answer with (yes/no) or (y/n)')
 }
 //-----------------------------------------------------------
-var q2Ans=prompt('Question 2 : Is Akali the one in the background image of the page? \n Please answer with (yes, no) or (y, n)');
+var q2Ans=prompt('Question 2 : Am i studing Computer Science? \n Please answer with (yes, no) or (y, n)');
 if(q2Ans.toLowerCase() =='yes' ||q2Ans.toLowerCase()=='y')
 {
  
@@ -38,7 +38,7 @@ else {
     alert ('You Answer by false input or you not inserted ,you should answer with (yes/no) or (y/n)')
 }
 //-----------------------------------------------------------
-var q3Ans=prompt('Question 3 :Is the current epidemic called Corona virus?\nPlease answer with (yes, no) or (y, n)');
+var q3Ans=prompt('Question 3 :Are i study in JUST university?\nPlease answer with (yes, no) or (y, n)');
 if(q3Ans.toLowerCase() =='yes' ||q3Ans.toLowerCase()=='y')
 {
  
@@ -54,23 +54,24 @@ else {
     alert ('You Answer by false input or you not inserted ,you should answer with (yes/no) or (y/n)')
 }
 //-----------------------------------------------------------
-var q4Ans=prompt('Question 4 :Is there a presence of aliens in Jordan?\nPlease answer with (yes, no) or (y, n)');
+var q4Ans=prompt('Question 4 :are my goal its to be bad programmer \nPlease answer with (yes, no) or (y, n)');
 if(q4Ans.toLowerCase() =='yes' ||q4Ans.toLowerCase()=='y')
 {
- 
-    alert ('Hell yah there are alins ,Your Anwer is  Correct ,Welldone');
-   // console.log('Your Anwer in question (4) is  Correct ,Welldone')
-    count++;
+    alert ('Your Anwer is not Correct ,Good luck in next one');
+   
 }
 else if (q4Ans.toLowerCase()=='no' ||q4Ans.toLowerCase()=='n')
 {
-    alert ('Your Anwer is not Correct ,Good luck in next one');
+
+    alert ('Your Anwer is  Correct ,Welldone');
+    // console.log('Your Anwer in question (4) is  Correct ,Welldone')
+     count++;
 }
 else {
     alert ('You Answer by false input or you not inserted ,you should answer with (yes/no) or (y/n)')
 }
 //-----------------------------------------------------------
-var q5Ans=prompt('Question 5 : Are there sea creatures in the sky?\nPlease answer with (yes, no) or (y, n)');
+var q5Ans=prompt('Question 5 :i do not have alot of experience,Right?\nPlease answer with (yes, no) or (y, n)');
 switch (true) {
     case (q5Ans.toLowerCase()=="yes"||q5Ans.toLowerCase()=='y'):
     alert ('Your Anwer is  Correct ,Welldone');
