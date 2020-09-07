@@ -1,4 +1,5 @@
 'use strict'
+
 name=prompt('What is your name ?');
 var count =0;
 
@@ -14,7 +15,7 @@ if(q1Ans.toLowerCase() =='yes' ||q1Ans.toLowerCase()=='y')
 else if (q1Ans.toLowerCase()=='no' ||q1Ans.toLowerCase()=='n')
 {
     alert ('Your Anwer is  Correct ,Welldone');
-    console.log('Your Anwer in question (1) is  Correct ,Welldone')
+  //  console.log('Your Anwer in question (1) is  Correct ,Welldone');
     count++;
 }
 else {
@@ -26,7 +27,7 @@ if(q2Ans.toLowerCase() =='yes' ||q2Ans.toLowerCase()=='y')
 {
  
     alert ('Your Anwer is  Correct ,Welldone');
-    console.log('Your Anwer in question (2) is  Correct ,Welldone')
+   // console.log('Your Anwer in question (2) is  Correct ,Welldone');
     count++;
 }
 else if (q2Ans.toLowerCase()=='no' ||q2Ans.toLowerCase()=='n')
@@ -42,7 +43,7 @@ if(q3Ans.toLowerCase() =='yes' ||q3Ans.toLowerCase()=='y')
 {
  
     alert ('Your Anwer is  Correct ,Welldone');
-    console.log('Your Anwer in question (3) is  Correct ,Welldone')
+  //  console.log('Your Anwer in question (3) is  Correct ,Welldone')
     count++;
 }
 else if (q3Ans.toLowerCase()=='no' ||q3Ans.toLowerCase()=='n')
@@ -58,7 +59,7 @@ if(q4Ans.toLowerCase() =='yes' ||q4Ans.toLowerCase()=='y')
 {
  
     alert ('Hell yah there are alins ,Your Anwer is  Correct ,Welldone');
-    console.log('Your Anwer in question (4) is  Correct ,Welldone')
+   // console.log('Your Anwer in question (4) is  Correct ,Welldone')
     count++;
 }
 else if (q4Ans.toLowerCase()=='no' ||q4Ans.toLowerCase()=='n')
