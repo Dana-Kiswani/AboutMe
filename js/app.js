@@ -140,7 +140,6 @@ while (k<6)
     break;
   alert('Wrong Answer or bad input, '+(5-k)+' Attempt remain');
   k++;
- 
 }
 if (!correct)
   alert('Sorry, you didn\'t guess,the correct answer its any one word of this list\n ('+meanings+') ,Good luck in next time ');

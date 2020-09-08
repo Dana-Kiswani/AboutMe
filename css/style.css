@@ -34,7 +34,7 @@ text-align: center;
  margin-bottom: -20px;
   
 }
-li nav {
+.navlist {
     border: 1px solid;
     border-color: red;
     display: inline;
