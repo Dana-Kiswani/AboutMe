@@ -110,7 +110,7 @@ for (var i=0;i<4;i++)
   }
   else
   {
-    alert('Wrong Input or Outrange number');
+    alert('Wrong Input or Out range number');
     alert(3-i+' Attempt remain');
   }
 
